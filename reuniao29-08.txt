@@ -1,0 +1,81 @@
+
+_____________________________________________________________
+REUNIAO COM PESSOA 29-08
+cria tabala roles e permissions
+roles = editor,moderador,admin,... e atribuir as permissions -> (nxn - cria mais 1 tabela)
+
+ignore permissions que criou pro sistema do gcesp -> criar novas
+
+armazena só a role e pega as permissions e deixa no estado. Ao executar ele ve se ele tem permission para fazer aquilo
+
+fazer restrição no firebase tbm, tem que ter configurações para permitir ele de acordo com uma chave dele, muda isso na interface
+nao pode só esconder o icone.
+
+_______________________________________________________________________
+REUNIAO COM DAHER: 02-09
+ato de posse
+
+**fazer um quiz depois que terminar as video-aulas - 70%+
+
+abrir ticket por email!
+
+dividir por áreas e depois ir para funções especificas -> secretaria/enviarDocEle oradoria/RegimentoInterno
+
+gerar ato depois de documento eleitoral, regimento interno (tudo) -> mudando data, numero, nome de pessoas, capitulos, etc...
+
+gerar formulário personalizado: escolhe campos, nomes e etc...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DOC:
+STEP 1: Informações iniciais
+Nome Completo*
+E-mail*
+CPF do Mestre Conselheiro*
+Telefone do MC*
+Nome do PCC*
+telefone do PCC*
+email do PCC*
+CPF do PCC*
+Capítulo*
+
+
+
+Preencha o calendário das principais atividades do seu Capítulo esse semestre, tudo bem?*
+STEP 2: atividades capitulares
+Data da Cerimônia de Instalação:*
+Data da Cerimônia de Iniciação:*
+Data da Cerimônia de Elevação:*
+Dia dos Pais*
+Dia do Patriota*
+Dia Educacional*
+Dia do Meu Governo*
+Dia DeMolay de Conforto*
+Memória FSL
+
+___
+devocional
+maes
+memoria jds
+
+STEP 3: 
+
+Anexe a Ata de Eleição do Capítulo. Assinada ok?*
+
+Preencha a nominata da diretoria apenas com a ID, certo?
+
+MC*
+1C*
+2C*
+

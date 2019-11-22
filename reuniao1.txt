@@ -1,0 +1,17 @@
+Estágio - reuniao 10/02
+WEB
+
+suporte - fóruns, banco de pergunta e resposta, vídeos explicativos
+
+processos - capitulo tem acesso de adm, históricos, checklists, acompanhamento de pedidos
+divido em secretaria, tesouraria e oradoria
+(chevaliers,autorizações,documento eleitoral,aprovar regimento interno,etc)
+
+
+parecido com sisdm
+
+atráves do sistema precisa ter uma api para abastecer o outro
+*pode ou nao fazer um sistema novo ou integrar 
+
+sugestão: stack de javascript
+frameworks: 

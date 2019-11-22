@@ -1,0 +1,154 @@
+roles:
+Usuário
+Editor
+Moderador
+Membro do GCESP
+Grande Tesoureiro Estadual
+Grande Secretário Estadual
+Grande Orador Estadual
+Grande Mestre Estadual
+Administrador
+Super-Administrador
+
+
+
+permissions:
+ACCESS_ADMIN -> todas as funções mas de admin (moderador+)
+ACCESS_USER -> todas as funções mas de user (usuario-editor-superadm)
+EDIT_USERROLE -> mudar papel de usuarios (super-adm)
+CRUD_AREAS -> crud areas do sistema  [forum,ticket,arquivo] (gme+)
+CLOSE_TICKET -> (membroGCESP+)
+CRUD_CURSO -> (gte+)
+ADD_VIDEOAULA -> (gte+) (RETIRADO)
+CRUD_ARQUIVO -> (membro+)
+RESPOND_DOCELEITORAL -> (gse+)
+RESPOND_REGINTERNO -> (goe+)
+
+ENCAMINHAR_INDICACAO -> (membro+)
+VOTE_CHEVALIER -> (só oficias + superadm)
+MANAGE_VOTING -> (gm e superadm)
+
+CHECK_REPORTS -> (membro+)
+CLOSE_TOPIC -> (moderador+)
+
+CRUD_CAPITULOS -> (gme+)
+
+
+
+
+Ver tickets
+ver areas
+add - alterar - excluir area
+responder ticket
+fechar ticket
+excluir ticket
+
+ver cursos
+ver areas
+add - alterar - excluir area
+add - excluir - alterar curso
+add - excluir video aula
+
+ver arquivos 
+ver tipos
+add - alterar - excluir tipo
+disponibilizar - mudar visibilidade - excluir arquivo
+
+ver documentos - responder
+ver documentos enviados - enviar - deletar (u)
+
+ver regimento - responder
+ver regimentos enviados - enviar - deletar (u)
+
+ver as outras permissoes: ai mapear roles com permission e usuario (nxn vai criar outra tabela).
+*ideia* = usar a ferramenta nova no navbar: se tiver a permissao que ta no [routes] mostra (?)
+AGORA:percorrer todas as telas e ver quais permissoes elas precisam.
+
+
+Fechar tópico
+Comentar tópico
+Upload video aula
+Disponibilizar arquivos
+Responder documento eleitoral
+Responder regimento interno
+Fechar ticket
+Responder ticket
+Votar chevalier
+
+Abrir tópico
+Comentar tópico
+Inscrever em curso
+Baixar arquivos
+Enviar documento eleitoral
+Enviar regimento interno
+Abrir Ticket
+Indicar chevalier
+
+
+_____________________________________________________
+Política de Papéis e Permissões
+Obs.: CRUD = Create, Read, Update and Delete
+Membro do GCESP
+● CRUD do próprio calendário de visitas
+Grande Tesoureiro Estadual
+● CRUD de arquivos da área de tesouraria
+● CRUD do próprio calendário de visitas
+Grande Secretário Estadual
+● CRUD de arquivos da área de secretaria
+● CRUD do próprio calendário de visitas
+Grande Orador Estadual
+● CRUD de arquivos da área de oradoria
+● CRUD do próprio calendário de visitas
+Grande Mestre Estadual
+● CRUD de arquivos da área de tesouraria
+● CRUD de arquivos da área de oradoria
+● CRUD de arquivos da área de secretaria
+● CRUD do próprio calendário de visitas
+● CRUD de todos os calendários de visitas
+Editor:
+● CRUD de notícias
+● CRUD de banners
+● CRUD de eventos
+Moderador:
+● CRUD de notícias
+● CRUD de banners
+● CRUD de eventos
+● CRUD de páginas de eventos
+● Edição de páginas de org-afiliadas
+● Edição de estatísticas
+● Edição de diretores
+● Edição de ex-dirigentes
+● Edição de org-afiliadas
+Administrador:
+● CRUD de notícias
+● CRUD de banners
+● CRUD de eventos
+● CRUD de páginas de eventos
+● CRUD de páginas de org-afiliadas
+● CRUD de diretores
+● CRUD de ex-dirigentes
+● CRUD de org-afiliadas
+● CRUD do próprio calendário de visitas
+● CRUD de todos os calendários de visitas
+● CRUD de arquivos da área de tesouraria
+● CRUD de arquivos da área de oradoria
+● CRUD de arquivos da área de secretaria
+● Edição de estatísticas
+● Edição de usuários
+Super-Administrador:
+● CRUD de notícias
+● CRUD de banners
+● CRUD de eventos
+● Edição de estatísticas
+● CRUD de páginas de eventos
+● CRUD de páginas de org-afiliadas
+● CRUD de diretores
+● CRUD de ex-dirigentes
+● CRUD de usuarios
+● CRUD de org-afiliadas
+● CRUD do próprio calendário de visitas
+● CRUD de todos os calendários de visitas
+● CRUD de arquivos da área de tesouraria
+● CRUD de arquivos da área de oradoria
+● CRUD de arquivos da área de secretaria
+● CRUD de roles
